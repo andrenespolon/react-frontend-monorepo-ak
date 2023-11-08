@@ -1,0 +1,18 @@
+{
+	"editor.tabSize": 2,
+	"editor.formatOnSave": true,
+	"eslint.validate": [
+		"javascript",
+		"typescript",
+		"typescriptreact",
+		"html",
+		"json"
+	],
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.codeActionsOnSave": {
+		"source.fixAll": true
+	},
+	"files.associations": {
+		"*.mdx": "markdown"
+	}
+}

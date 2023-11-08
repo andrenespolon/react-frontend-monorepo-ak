@@ -1,0 +1,12 @@
+{
+	"extends": "../../tsconfig.json",
+	"compilerOptions": {
+		"baseUrl": ".",
+		"isolatedModules": true,
+		"paths": {
+			"@pages/*": ["./src/pages/*"]
+		}
+	},
+	"include": ["./src/**/*", "./types/**/*"],
+	"exclude": ["node_modules", ".next"]
+}

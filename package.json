@@ -1,0 +1,70 @@
+{
+	"name": "react-frontend-monorepo-ak",
+	"description": "RFM - React Frontend Monorepo (with Atlaskit UI).",
+	"private": true,
+	"version": "1.0.0",
+	"license": "UNLICENSED",
+	"author": {
+		"name": "André Nespolon"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/andrenespolon/react-frontend-monorepo-ak.git"
+	},
+	"workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+	"scripts": {
+		"sb": "lerna run sb --scope=@rfm/design-system",
+		"test:ds": "lerna run test --scope=@rfm/design-system",
+		"test:sv": "lerna run test --scope=@rfm/services",
+		"test:ut": "lerna run test --scope=@rfm/utility",
+		"dev:admin": "lerna run dev --scope=front-admin",
+		"dev:webapp": "lerna run dev --scope=front-webapp",
+		"build": "lerna run build",
+		"build:dm": "lerna run build --scope=@rfm/data-model",
+		"build:ds": "lerna run build --scope=@rfm/design-system",
+		"build:sv": "lerna run build --scope=@rfm/services",
+		"build:ut": "lerna run build --scope=@rfm/utility",
+		"build:admin": "lerna run build --scope=front-admin",
+		"build:webapp": "lerna run build --scope=front-webapp",
+		"new-version": "lerna version --no-push",
+		"graph": "nx graph",
+		"commit": "git-cz",
+		"prepare": "husky install"
+	},
+	"packgeManager": "^yarn@1.22.19",
+	"config": {
+		"commitizen": {
+			"path": "./node_modules/cz-conventional-changelog"
+		}
+	},
+	"engines": {
+		"node": "^16.17.1"
+	},
+	"devDependencies": {
+		"@commitlint/cli": "^17.7.1",
+		"@commitlint/config-conventional": "^17.7.0",
+		"@typescript-eslint/eslint-plugin": "^6.0.0",
+		"@typescript-eslint/parser": "^6.0.0",
+		"commitizen": "^4.3.0",
+		"cz-conventional-changelog": "^3.3.0",
+		"eslint": "^8.2.0",
+		"eslint-config-airbnb": "19.0.4",
+		"eslint-config-airbnb-typescript": "^17.1.0",
+		"eslint-config-prettier": "^9.0.0",
+		"eslint-import-resolver-typescript": "^3.6.0",
+		"eslint-plugin-import": "^2.25.3",
+		"eslint-plugin-import-helpers": "^1.3.1",
+		"eslint-plugin-jsx-a11y": "^6.5.1",
+		"eslint-plugin-prettier": "^5.0.0",
+		"eslint-plugin-react": "^7.28.0",
+		"eslint-plugin-react-hooks": "^4.3.0",
+		"husky": "^8.0.3",
+		"lerna": "7.2.0",
+		"lint-staged": "^14.0.1",
+		"prettier": "^3.0.3",
+		"typescript": "^5.2.2"
+	}
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1694961225594" clover="3.2.0">
+  <project timestamp="1694961225594" name="All files">
+    <metrics statements="39" coveredstatements="32" conditionals="25" coveredconditionals="15" methods="6" coveredmethods="6" elements="70" coveredelements="53" complexity="0" loc="39" ncloc="39" packages="5" files="6" classes="6"/>
+    <package name="compareArrays">
+      <metrics statements="6" coveredstatements="5" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="compare-arrays.ts" path="/home/andre/dev/finnet/lunapay-frontend-monorepo-ak/packages/utility/src/compareArrays/compare-arrays.ts">
+        <metrics statements="6" coveredstatements="5" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="14" count="4" type="cond" truecount="2" falsecount="2"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="22" count="2" type="stmt"/>
+        <line num="26" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="compareObjects">
+      <metrics statements="12" coveredstatements="10" conditionals="5" coveredconditionals="4" methods="2" coveredmethods="2"/>
+      <file name="compare-objects.ts" path="/home/andre/dev/finnet/lunapay-frontend-monorepo-ak/packages/utility/src/compareObjects/compare-objects.ts">
+        <metrics statements="11" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="13" count="3" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="23" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="34" count="2" type="stmt"/>
+        <line num="36" count="2" type="stmt"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+        <line num="44" count="1" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
+      </file>
+      <file name="index.ts" path="/home/andre/dev/finnet/lunapay-frontend-monorepo-ak/packages/utility/src/compareObjects/index.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="3" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="1" count="9" type="cond" truecount="2" falsecount="1"/>
+      </file>
+    </package>
+    <package name="convertProductName">
+      <metrics statements="4" coveredstatements="2" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <file name="convert-product-name.ts" path="/home/andre/dev/finnet/lunapay-frontend-monorepo-ak/packages/utility/src/convertProductName/convert-product-name.ts">
+        <metrics statements="4" coveredstatements="2" conditionals="4" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="convertToError">
+      <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="convert-to-error.ts" path="/home/andre/dev/finnet/lunapay-frontend-monorepo-ak/packages/utility/src/convertToError/convert-to-error.ts">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="13" count="4" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="22" count="1" type="stmt"/>
+        <line num="25" count="7" type="stmt"/>
+        <line num="26" count="1" type="stmt"/>
+        <line num="28" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="convertUrlProduct">
+      <metrics statements="8" coveredstatements="6" conditionals="12" coveredconditionals="7" methods="1" coveredmethods="1"/>
+      <file name="convert-url-product.ts" path="/home/andre/dev/finnet/lunapay-frontend-monorepo-ak/packages/utility/src/convertUrlProduct/convert-url-product.ts">
+        <metrics statements="8" coveredstatements="6" conditionals="12" coveredconditionals="7" methods="1" coveredmethods="1"/>
+        <line num="3" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="5" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="9" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="13" count="1" type="cond" truecount="1" falsecount="1"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="29" count="1" type="stmt"/>
+        <line num="32" count="0" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

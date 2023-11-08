@@ -1,0 +1,30 @@
+{
+	"compilerOptions": {
+		"target": "ESNext",
+		"lib": ["dom", "dom.iterable", "esnext"],
+		"allowJs": true,
+		"skipLibCheck": true,
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noEmit": false,
+		"esModuleInterop": true,
+		"module": "esnext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"isolatedModules": false,
+		"verbatimModuleSyntax": false,
+		"noImplicitAny": true,
+		"exactOptionalPropertyTypes": false,
+		"jsx": "preserve",
+		"incremental": true
+	},
+	"exclude": [
+		"node_modules",
+		".diagrams",
+		".husky",
+		".scripts",
+		".vscode",
+		".zed"
+	],
+	"include": ["nx.json"]
+}

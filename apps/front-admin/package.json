@@ -1,0 +1,10 @@
+{
+	"name": "front-admin",
+	"description": "Frontend admin application.",
+	"private": true,
+	"version": "1.0.0",
+	"license": "MIT",
+	"author": {
+		"name": "André Nespolon"
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"tasksRunnerOptions": {
+		"default": {
+			"runner": "nx/tasks-runners/default",
+			"options": {
+				"cacheableOperations": ["build", "test"]
+			}
+		}
+	},
+	"targetDefaults": {
+		"build": {
+			"dependsOn": ["^test"]
+		}
+	},
+	"extends": "nx/presets/npm.json",
+	"$schema": "./node_modules/nx/schemas/nx-schema.json"
+}

@@ -1,0 +1,10 @@
+{
+	"name": "@rfm/services",
+	"description": "Client side services api, external services and providers for all applications.",
+	"private": true,
+	"version": "1.0.0",
+	"license": "MIT",
+	"author": {
+		"name": "André Nespolon"
+	}
+}
