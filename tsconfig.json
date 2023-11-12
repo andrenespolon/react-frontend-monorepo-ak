@@ -1,6 +1,6 @@
 {
 	"compilerOptions": {
-		"target": "ESNext",
+		"target": "ES6",
 		"lib": ["dom", "dom.iterable", "esnext"],
 		"allowJs": true,
 		"skipLibCheck": true,
@@ -15,16 +15,12 @@
 		"verbatimModuleSyntax": false,
 		"noImplicitAny": true,
 		"exactOptionalPropertyTypes": false,
+		"allowSyntheticDefaultImports": true,
+		"declaration": true,
+		"sourceMap": true,
 		"jsx": "preserve",
 		"incremental": true
 	},
-	"exclude": [
-		"node_modules",
-		".diagrams",
-		".husky",
-		".scripts",
-		".vscode",
-		".zed"
-	],
-	"include": ["nx.json"]
+	"include": ["./apps", "./packages"],
+	"exclude": ["./**/next.config.js"]
 }

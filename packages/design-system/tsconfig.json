@@ -14,6 +14,5 @@
 			"@views/*": ["./src/views/*"]
 		}
 	},
-	"include": ["src/**/*", "vite.config.ts"],
-	"exclude": ["node_modules", ".jest", ".storybook", "dist"]
+	"include": ["src/**/*", "vite.config.ts"]
 }

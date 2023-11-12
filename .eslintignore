@@ -1,5 +1,6 @@
 node_modules
 .husky
 .screenshots
-nx.json
-package.json
+dist
+.next
+*.json

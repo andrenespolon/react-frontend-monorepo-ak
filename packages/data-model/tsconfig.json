@@ -1,12 +1,12 @@
 {
 	"extends": "../../tsconfig.json",
 	"compilerOptions": {
-		"baseUrl": "./src",
+		"baseUrl": ".",
 		"isolatedModules": true,
 		"module": "commonjs",
 		"declaration": true,
 		"outDir": "dist"
 	},
-	"include": ["./src/**/*"],
-	"exclude": ["node_modules"]
+	"include": ["./src/**/*.ts", "./src/**/*.tsx"],
+	"exclude": ["node_modules", "package.json"]
 }

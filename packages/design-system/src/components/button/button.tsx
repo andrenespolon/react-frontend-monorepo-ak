@@ -5,7 +5,7 @@ import FocusRing from '@atlaskit/focus-ring';
 
 export const Button = React.memo<LoadingButtonProps>(({ ...props }) => {
 	return (
-		<FocusRing>
+		<FocusRing {...props}>
 			<LoadingButton {...props} />
 		</FocusRing>
 	);

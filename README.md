@@ -39,7 +39,7 @@ team).
 ## Project's structure
 
 As we said, this project is a monorepo, what manage many repositories. In the
-`/package` folder we have all the repository dependencies and apllications.
+`/package` folder we have all the repository dependencies, and in `/apps` main apllications.
 
 Let's see how its structure likes:
 

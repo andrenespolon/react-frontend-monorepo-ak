@@ -1,5 +1,5 @@
 /**
- * __Convert to Error instance
+ * __Convert to Error Instance__
  */
 export const convertToError = (e: unknown): Error => {
 	let error: Error;
