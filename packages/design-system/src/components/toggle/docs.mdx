@@ -1,0 +1,45 @@
+import { Canvas, Meta, Story, Controls } from '@storybook/blocks';
+import * as Toggle from './toggle.stories.tsx';
+
+<Meta of={Toggle} title='Toggle' />
+
+# Toggle
+
+A toggle is used to view or switch between enabled or disabled states.
+
+## Default
+
+The default form of a toggle. For pages with lots of toggles, use the default
+size.
+
+<Canvas of={Toggle.Default} />
+
+## Checked
+
+Set the initial checked value by setting `defaultChecked` (this is optional, by
+default it will be set as false if not provided). After that point the checked
+value is controlled by the component. Provide an `onChange` handler to be
+notified of checked value changes.
+
+<Canvas of={Toggle.Checked} />
+
+## Disabled
+
+A toggle is disabled when a selection has already been made outside of the
+current context that negates the need for the toggle.
+
+Avoid using disabled UI. This can cause accessibility problems, because disabled
+UI doesn't give enough information to the user about what went wrong and how to
+proceed, and will not appear in the tab order.
+
+<Canvas of={Toggle.Disabled} />
+
+## Sizes
+
+To call attention to a specific action, use a `large` toggle.
+
+<Canvas of={Toggle.Size} />
+
+## API
+
+<Controls />

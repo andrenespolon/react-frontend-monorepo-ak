@@ -1,0 +1,57 @@
+import { Canvas, Meta, Story, Controls } from '@storybook/blocks';
+import * as UseMediaDemo from './use-media.stories.tsx';
+
+<Meta of={UseMediaDemo} title='Use Media' />
+
+# Hook useMedia
+
+A hook to get the window sies and/or check if is current device is small.
+
+## Is small
+
+If device width screen is less than `768px`, `isSmall` props is `true`.
+Otherwise, `false`.
+
+> Tip: Resize the window to show changes
+
+<Canvas of={UseMediaDemo.IsSmall} />
+
+## Window size
+
+The prop `windowSize` (`WindowSizeProps`) returns the sizes of window:
+
+```json
+{
+	width: 0;
+	height: 0;
+}
+```
+
+<Canvas of={UseMediaDemo.WindowSize} />
+
+## Usage
+
+```tsx
+import { useMedia } from '@rfm/design-system';
+
+function Demo() {
+	const { isSmall, windowSize } = useMedia();
+
+	return (
+		<div>
+			<pre
+				style={{
+					resize: 'both',
+					padding: token('space.100'),
+				}}
+			>
+				<code>isSmall: {String(isSmall)}</code>
+				<br />
+				<code>
+					windowSize: {windowSize.height}px x {windowSize.width}px
+				</code>
+			</pre>
+		</div>
+	);
+}
+```

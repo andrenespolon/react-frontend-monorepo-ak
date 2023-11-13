@@ -1,0 +1,64 @@
+import { Canvas, Meta, Story, Controls } from '@storybook/blocks';
+import * as Avatar from './avatar.stories.tsx';
+
+<Meta of={Avatar} title='Avatar' />
+
+# Avatar
+
+An avatar is a visual representation of a user or entity.
+
+## Default
+
+When the image source is unavailable (for example, when there's a problem
+displaying the image due to an error), or the source is unspecified, the avatar
+component will display a default image.
+
+<Canvas of={Avatar.Default} />
+
+## Image
+
+Use `isDisabled` to disable a checkbox when another action has to be completed
+before the checkbox is usable.
+
+<Canvas of={Avatar.Image} />
+
+## Disabled
+
+Set `isDisabled` to disable an avatar that isn't usable. This sets the avatar
+image to 40% opacity using the `opacity.disabled` token.
+
+Avoid using disabled UI. This can cause accessibility problems, because disabled
+UI doesn't give enough information to the user about what went wrong and how to
+proceed, and will not appear in the tab order.
+
+<Canvas of={Avatar.Disabled} />
+
+## Status
+
+Indicates contextual information by showing a small icon on the avatar. Takes
+precedence over presence.
+
+<Canvas of={Avatar.Status} />
+
+## Presence
+
+Indicates a user's online status by showing a small icon on the avatar.
+
+<Canvas of={Avatar.Presence} />
+
+## Sizes
+
+Use `size` to change the size of the Avatar.
+
+<Canvas of={Avatar.Size} />
+
+## Clickable
+
+You can pass `onClick` props as `Function`. Default is a `SyntheticBaseEvent`.
+See devtools on console for more information.
+
+<Canvas of={Avatar.Clickable} />
+
+## API
+
+<Controls />

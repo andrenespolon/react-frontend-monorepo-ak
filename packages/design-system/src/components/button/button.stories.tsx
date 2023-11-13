@@ -7,9 +7,8 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Button } from './index';
 
 const meta: Meta<typeof Button> = {
-	title: 'Atoms/Button',
+	title: 'Components/Button',
 	component: Button,
-	tags: ['autodocs'],
 	args: {
 		children: 'Button',
 	},
@@ -19,9 +18,6 @@ export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-/**
- * __Appearence__
- */
 export const Primary: Story = {
 	args: {
 		appearance: 'primary',
@@ -70,9 +66,6 @@ export const Danger: Story = {
 	},
 };
 
-/**
- * __Sizes__
- */
 export const Compact: Story = {
 	args: {
 		appearance: 'primary',
@@ -97,9 +90,6 @@ export const FullWidth: Story = {
 	},
 };
 
-/**
- * __States__
- */
 export const Disabled: Story = {
 	args: {
 		isDisabled: true,
@@ -119,9 +109,6 @@ export const Loading: Story = {
 	},
 };
 
-/**
- * __Icon__
- */
 export const Before: Story = {
 	args: {
 		iconBefore: React.createElement(IconEmoji),
@@ -136,9 +123,6 @@ export const After: Story = {
 	},
 };
 
-/**
- * __Component__
- */
 export const Component: Story = {
 	args: {
 		appearance: 'default',

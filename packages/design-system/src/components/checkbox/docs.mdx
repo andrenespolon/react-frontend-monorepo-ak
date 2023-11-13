@@ -1,0 +1,32 @@
+import { Canvas, Meta, Story, Controls } from '@storybook/blocks';
+import * as Checkbox from './checkbox.stories.tsx';
+
+<Meta of={Checkbox} title='Checkbox' />
+
+# Checkbox
+
+A checkbox is an input control that allows a user to select one or more options
+from a number of choices.
+
+## Default
+
+The default checkbox input includes a selected and unselected state.
+
+<Canvas of={Checkbox.Default} />
+
+## Disabled
+
+Use `isDisabled` to disable a checkbox when another action has to be completed
+before the checkbox is usable.
+
+<Canvas of={Checkbox.Disabled} />
+
+## Sizes
+
+Use `size` to change the size of the checkbox.
+
+<Canvas of={Checkbox.Size} />
+
+## API
+
+<Controls />
