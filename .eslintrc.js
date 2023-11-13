@@ -99,4 +99,5 @@ module.exports = {
 			extends: ['plugin:@typescript-eslint/disable-type-checked'],
 		},
 	],
+	ignorePatterns: '**/*.json',
 };
