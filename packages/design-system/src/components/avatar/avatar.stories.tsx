@@ -3,9 +3,9 @@ import type { Meta, StoryObj } from '@storybook/react';
 import { Avatar } from './index';
 
 const meta: Meta<typeof Avatar> = {
-	title: 'Components/Avatar',
+	title: 'Atoms/Avatar',
 	component: Avatar,
-	args: {},
+	tags: ['autodocs'],
 } satisfies Meta<typeof Avatar>;
 
 export default meta;
@@ -32,7 +32,7 @@ export const Default: Story = {
  */
 export const Image: Story = {
 	args: {
-		src: 'https://avatars.githubusercontent.com/u/54320760?v=4',
+		src: 'https://randomuser.me/api/portraits/men/60.jpg',
 	},
 };
 
@@ -45,7 +45,7 @@ export const Image: Story = {
 export const Disabled: Story = {
 	args: {
 		isDisabled: true,
-		src: 'https://avatars.githubusercontent.com/u/54320760?v=4',
+		src: 'https://randomuser.me/api/portraits/men/60.jpg',
 	},
 };
 
@@ -59,7 +59,7 @@ export const Disabled: Story = {
 export const Status: Story = {
 	args: {
 		status: 'approved',
-		src: 'https://avatars.githubusercontent.com/u/54320760?v=4',
+		src: 'https://randomuser.me/api/portraits/men/60.jpg',
 	},
 };
 
@@ -73,20 +73,20 @@ export const Status: Story = {
 export const Presence: Story = {
 	args: {
 		presence: 'online',
-		src: 'https://avatars.githubusercontent.com/u/54320760?v=4',
+		src: 'https://randomuser.me/api/portraits/men/60.jpg',
 	},
 };
 
 /**
  * __Size__
  *
- * You can pass `src` props as `text`.
+ * You can pass `size` props as `text` (literal types). See each type.
  *
  */
 export const Size: Story = {
 	args: {
 		size: 'xxlarge',
-		src: 'https://avatars.githubusercontent.com/u/54320760?v=4',
+		src: 'https://randomuser.me/api/portraits/men/60.jpg',
 	},
 };
 
@@ -99,7 +99,7 @@ export const Size: Story = {
  */
 export const Clickable: Story = {
 	args: {
-		src: 'https://avatars.githubusercontent.com/u/54320760?v=4',
+		src: 'https://randomuser.me/api/portraits/men/60.jpg',
 		size: 'large',
 		presence: 'online',
 		// eslint-disable-next-line no-console

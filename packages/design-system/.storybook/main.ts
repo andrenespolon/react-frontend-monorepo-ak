@@ -16,11 +16,11 @@ const config: StorybookConfig = {
 		 *
 		 * @see https://mdxjs.com/packages/rollup
 		 */
-		'../src/**/__docs__/*.mdx',
+		'../src/**/*.mdx',
 		/**
 		 * Only `stories` can find by Storybook.
 		 */
-		'../src/**/__docs__/*.stories.@(js|jsx|mjs|ts|tsx)',
+		'../src/**/*.stories.@(js|jsx|mjs|ts|tsx)',
 	],
 	addons: [
 		getAbsolutePath('@storybook/addon-docs'),
